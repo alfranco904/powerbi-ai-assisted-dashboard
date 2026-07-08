@@ -32,3 +32,8 @@ There were a few challenges:
 
 All the above said, the exercise was largely successful.  I was impressed with the output that I recieved from the models.  The models greatly accelerated the design, build and test processes.  
 It was a collaborative effort as the design decisions suggested by the models needed to be vetted and sometimes refined.  The models also helped bridge many of the knowledge gaps that serve as obstacles to quickly completing such a project, especially when performing the exercise solo. 
+
+# Phase 2 - Incorporated Azure Data Factory as the ETL layer, utilizing a medallion architecture in Azure SQL DB to load the data to Bronze, Silver and Gold layer data structures.
+Built a new version of the Power BI dashboard which utilizes DirectQuery to source data for the reports from medallion Gold layer views in Azure SQL DB.  Used AI to define the approach to the solution, upskill on Azure Data Factory and troubleshoot the solution's implementation in Azure and Power BI.  
+
+As this project was implemented in Power BI dashboard with a DirectQuery interface to Azure SQL DB, the result cannot be shared via an upload of the PowerBI file. Instead, I have created a project overview PDF with the DDL, Stored Procedures, DAX measures, data models, report snapshots and learnings:  
